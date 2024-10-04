@@ -1,24 +1,25 @@
 import React from 'react'
 import { ExternalLink } from 'lucide-react'
+import Img1 from '../assets/project.webp'
 
 export default function Projects() {
   const projects = [
     {
       title: "Project 1",
       description: "A brief description of Project 1 and its key features.",
-      image: "src/Img/project.webp",
+      image: Img1,
       link: "#",
     },
     {
       title: "Project 2",
       description: "A brief description of Project 2 and its key features.",
-      image: "src/Img/project.webp",
+      image: Img1,
       link: "#",
     },
     {
       title: "Project 3",
       description: "A brief description of Project 3 and its key features.",
-      image: "src/Img/project.webp",
+      image: Img1,
       link: "#",
     }
   ]

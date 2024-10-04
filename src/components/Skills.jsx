@@ -1,37 +1,49 @@
 import React from 'react'
+import Img1 from '../assets/Html.webp'
+import Img2 from '../assets/css.webp'
+import Img3 from '../assets/javascript.webp'
+import Img4 from '../assets/react.webp'
+import Img5 from '../assets/node.webp'
+import Img6 from '../assets/express.webp'
+import Img7 from '../assets/firebase.webp'
+import Img8 from '../assets/mongo.webp'
+import Img9 from '../assets/mysql.webp'
+import Img10 from '../assets/git.webp'
+import Img11 from '../assets/github.webp'
+import Img12 from '../assets/vscode.webp'
 
 export default function Skills() {
   const skills = [
     {
       category: "Frontend",
       items: [
-        { name: "HTML", image: "src/Img/Html.webp" },
-        { name: "CSS", image: "src/Img/css.webp" },
-        { name: "JavaScript", image: "src/Img/javascript.webp" },
-        { name: "React", image: "src/Img/react.webp" }
+        { name: "HTML", image: Img1 },
+        { name: "CSS", image: Img2 },
+        { name: "JavaScript", Img3 },
+        { name: "React", image: Img4 }
       ]
     },
     {
       category: "Backend",
       items: [
-        { name: "Node.js", image: "src/Img/node.webp" },
-        { name: "Express", image: "src/Img/express.webp" },
-        { name: "Firebase", image: "src/Img/firebase.webp" }
+        { name: "Node.js", image: Img5 },
+        { name: "Express", image: Img6},
+        { name: "Firebase", image: Img7 }
       ]
     },
     {
       category: "Database",
       items: [
-        { name: "MongoDB", image: "src/Img/mongo.webp" },
-        { name: "MySQL", image: "src/Img/mysql.webp" }
+        { name: "MongoDB", image: Img8 },
+        { name: "MySQL", image: Img9}
       ]
     },
     {
       category: "Tools",
       items: [
-        { name: "Git", image: "src/Img/git.webp" },
-        { name: "GitHub", image: "src/Img/github.webp" },
-        { name: "Vs Code", image: "src/Img/vscode.webp" },
+        { name: "Git", image: Img10 },
+        { name: "GitHub", image: Img11 },
+        { name: "Vs Code", image: Img12 },
       ]
     },
   ]

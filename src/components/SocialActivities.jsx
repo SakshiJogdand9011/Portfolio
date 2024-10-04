@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import Img1 from '../assets/Social1.webp'
+import Img2 from '../assets/Social2.webp'
+import Img3 from '../assets/Social3.webp'
 
 export default function SocialActivities() {
   const activities = [
-    { title: "Tree Plantation", imageUrl: "src/Img/Social1.webp" },
-    { title: "Tree Plantation", imageUrl: "src/Img/Social2.webp" },
-    { title: "Tree Plantation", imageUrl: "src/Img/Social3.webp" },
+    { title: "Tree Plantation", imageUrl: Img1 },
+    { title: "Tree Plantation", imageUrl: Img2 },
+    { title: "Tree Plantation", imageUrl: Img3 },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
