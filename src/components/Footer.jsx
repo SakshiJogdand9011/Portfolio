@@ -10,15 +10,15 @@ export default function Footer() {
             <p className="text-sm mt-1">Full Stack Developer</p>
           </div>
           <div className="flex space-x-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+            <a href="https://github.com/SakshiJogdand9011" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
               <FaGithub className="w-6 h-6" />
               <span className="sr-only">GitHub</span>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/sakshi-jogdand7744/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
               <FaLinkedin className="w-6 h-6" />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+            <a href="https://x.com/language_sakshi" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
               <FaTwitter className="w-6 h-6" />
               <span className="sr-only">Twitter</span>
             </a>

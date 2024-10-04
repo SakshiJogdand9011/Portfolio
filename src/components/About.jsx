@@ -86,14 +86,6 @@ export default function About() {
                 <Heart className="mr-2 text-primary" size={16} />
                 Artificial intelligence (AI) 
               </li>
-              <li className="flex items-center">
-                <Heart className="mr-2 text-primary" size={16} />
-                Machine Learning
-              </li>
-              <li className="flex items-center">
-                <Heart className="mr-2 text-primary" size={16} />
-                Open Source Contributing
-              </li>
             </ul>
           </div>
         </div>

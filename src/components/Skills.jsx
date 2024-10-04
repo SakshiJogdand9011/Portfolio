@@ -19,7 +19,7 @@ export default function Skills() {
       items: [
         { name: "HTML", image: Img1 },
         { name: "CSS", image: Img2 },
-        { name: "JavaScript", Img3 },
+        { name: "JavaScript", image : Img3 },
         { name: "React", image: Img4 }
       ]
     },
