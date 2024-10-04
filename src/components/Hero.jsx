@@ -1,11 +1,12 @@
 import React from 'react' 
 import {motion} from 'framer-motion'
+import profileImg from '../assets/profileImg.webp';
 
 export default function Hero() {
   return (
     <div id='home' className="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center px-4 py-8">
       <img
-        src='src/assets/profileImg.webp'
+        src={profileImg}
         alt="Developer"
         className="w-40 h-40 sm:w-56 sm:h-56 rounded-full border-4 border-blue-600 mb-8"
       />
