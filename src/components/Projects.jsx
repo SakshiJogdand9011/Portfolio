@@ -1,14 +1,15 @@
 import React from 'react'
 import { ExternalLink } from 'lucide-react'
 import Img1 from '../assets/project.webp'
+import Project1 from '../assets/Project1.webp'
 
 export default function Projects() {
   const projects = [
     {
       title: "Project 1",
       description: "A brief description of Project 1 and its key features.",
-      image: Img1,
-      link: "#",
+      image: Project1,
+      link: "https://f-chats.netlify.app/login",
     },
     {
       title: "Project 2",
