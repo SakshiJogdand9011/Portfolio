@@ -9,7 +9,7 @@ export default function Projects() {
       title: "Project 1",
       description: "A brief description of Project 1 and its key features.",
       image: Project1,
-      link: "https://f-chats.netlify.app/login",
+      link: "https://f-chats.netlify.app",
     },
     {
       title: "Project 2",
